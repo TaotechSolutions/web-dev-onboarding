@@ -75,8 +75,7 @@ Please read our [CONTRIBUTING.md](.github/CONTRIBUTING.md) for detailed guidelin
 
 ## 🆘 Need Help?
 - Check the [FAQ section](#) (coming soon)
-- Ask in the #intern-help channel on Slack
-- Schedule a 1:1 with your mentor
+- Schedule a 1:1 with your with a fellow or the founder
 
 ---
 
