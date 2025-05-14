@@ -47,10 +47,10 @@ Welcome aboard! We're excited to have you join our web development team. This re
    - Request review from at least one team member
 
 ## 📱 Team Communication
-- **Slack**: Primary communication channel
-- **Discord**: For pair programming and quick questions
+- **Whatsapp**: Primary communication channel
+- **Discord**: For pair programming and quick questions (Later)
 - **Email**: For formal communications
-- **Daily Standups**: 10 AM EST (check your local time)
+- **Daily Standups**: Mondays and Thursdays (10 AM)
 
 ## 📚 Learning Resources
 - [MDN Web Docs](https://developer.mozilla.org/)
