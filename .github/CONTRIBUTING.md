@@ -103,11 +103,6 @@ Types:
 - [Code Review Best Practices](https://google.github.io/eng-practices/review/reviewer/)
 - [Clean Code Principles](https://www.freecodecamp.org/news/clean-code-principles/)
 
-## 🆘 Getting Help
-- Use the #intern-help channel on Slack
-- Schedule 1:1s with mentors
-- Review project documentation
-- Ask in team meetings
 
 ---
 
