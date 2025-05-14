@@ -4,136 +4,178 @@
 
 ```
 web-dev-onboarding/
-├── apps/                      # Main applications directory
+├── projects/                  # Learning projects directory
 │   ├── computer-literacy/     # Basic Computer Literacy Learning App
+│   │   ├── public/           # Static assets (images, fonts)
+│   │   ├── css/             # Stylesheets
+│   │   ├── js/              # JavaScript files
+│   │   └── index.html       # Main HTML file
+│   │
 │   ├── prompt-engineering/    # Prompt Engineering App
+│   │   ├── public/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── index.html
+│   │
 │   ├── software-engineering/  # Software Engineering Basics App
+│   │   ├── public/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── index.html
+│   │
 │   └── ai-engineering/        # AI Engineering App
+│       ├── public/
+│       ├── css/
+│       ├── js/
+│       └── index.html
 │
-├── shared/                    # Shared components and utilities
-│   ├── components/           # Reusable UI components
-│   ├── styles/              # Global styles and themes
-│   ├── utils/               # Shared utility functions
-│   └── types/               # TypeScript type definitions
+├── resources/                 # Learning resources
+│   ├── html/                 # HTML tutorials and examples
+│   ├── css/                  # CSS tutorials and examples
+│   ├── javascript/           # JavaScript tutorials and examples
+│   └── backend/              # Basic backend tutorials
 │
-├── docs/                     # Project documentation
-│   ├── api/                 # API documentation
-│   ├── architecture/        # System architecture docs
-│   └── guides/             # Development guides
-│
-└── tools/                   # Development tools and scripts
+└── tools/                    # Development tools and scripts
 ```
 
 ## 🎯 Project Overview
 
 ### 1. Basic Computer Literacy Learning App
 - Target Audience: Absolute beginners
+- Technologies:
+  - HTML5
+  - CSS3
+  - Vanilla JavaScript
 - Key Features:
   - Interactive tutorials
   - Basic computer operations
   - Internet navigation
   - Digital tool usage
-  - Progress tracking
 
 ### 2. Prompt Engineering App
 - Target Audience: AI enthusiasts
+- Technologies:
+  - HTML5
+  - CSS3
+  - JavaScript
+  - Basic Node.js
 - Key Features:
   - Prompt design tutorials
   - AI interaction examples
   - Best practices
   - Real-world scenarios
-  - Response analysis
 
 ### 3. Software Engineering Basics App
 - Target Audience: Aspiring developers
+- Technologies:
+  - HTML5
+  - CSS3
+  - JavaScript
+  - Node.js
+  - Express.js
 - Key Features:
   - Code fundamentals
   - Version control
-  - System architecture
+  - Basic system architecture
   - Development workflow
-  - Project management
 
 ### 4. AI Engineering App
 - Target Audience: Future AI professionals
+- Technologies:
+  - HTML5
+  - CSS3
+  - JavaScript
+  - Node.js
+  - Basic API integration
 - Key Features:
-  - AI model integration
+  - AI model integration basics
   - API usage
   - Ethical considerations
   - Real-world applications
-  - Best practices
 
 ## 🛠️ Technology Stack
 
 ### Frontend
-- Next.js 14 (React framework)
-- TypeScript
-- Tailwind CSS
-- Shadcn/ui (Component library)
-- React Query (Data fetching)
-- Zustand (State management)
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Responsive Design
+- CSS Grid & Flexbox
 
-### Backend
+### Backend (Basic)
 - Node.js
 - Express.js
-- MongoDB
-- Redis (Caching)
-- JWT (Authentication)
+- JSON
+- RESTful APIs
 
 ### Development Tools
-- ESLint
-- Prettier
-- Husky (Git hooks)
-- Jest (Testing)
-- Cypress (E2E testing)
+- VS Code
+- Live Server
+- Git
+- Chrome DevTools
 
 ## 🚀 Getting Started
 
-1. Choose an app to work on
-2. Review the app's specific documentation
-3. Set up your development environment
-4. Start with the assigned tasks
+1. Choose a project to work on
+2. Set up your development environment:
+   - Install VS Code
+   - Install Live Server extension
+   - Install Git
+3. Clone the repository
+4. Start with HTML/CSS structure
+5. Add JavaScript functionality
+6. Implement backend features (if applicable)
 
 ## 📝 Development Guidelines
 
-### Code Organization
-- Follow the established project structure
-- Use feature-based organization within apps
-- Keep components modular and reusable
-- Maintain consistent naming conventions
+### HTML Structure
+- Use semantic HTML5 elements
+- Maintain proper document structure
+- Include meta tags
+- Ensure accessibility
 
-### Testing Strategy
-- Unit tests for utilities and components
-- Integration tests for features
-- E2E tests for critical paths
-- Maintain minimum 80% test coverage
+### CSS Best Practices
+- Use CSS variables for theming
+- Implement responsive design
+- Follow BEM naming convention
+- Keep styles modular
 
-### Documentation
-- Document all new features
-- Update API documentation
-- Keep README files current
-- Add inline code comments
+### JavaScript Guidelines
+- Use modern ES6+ features
+- Write clean, readable code
+- Add comments for complex logic
+- Handle errors appropriately
+
+### Backend Development
+- Start with simple Node.js scripts
+- Progress to Express.js
+- Implement basic API endpoints
+- Use environment variables
 
 ## 🎯 First Tasks for Interns
 
 1. **Environment Setup**
-   - Install required tools
-   - Configure development environment
-   - Set up Git hooks
+   - Install VS Code
+   - Set up Live Server
+   - Configure Git
+   - Install Chrome DevTools
 
 2. **Learning Phase**
-   - Review project documentation
-   - Study the codebase
-   - Understand the architecture
+   - Complete HTML/CSS basics
+   - Learn JavaScript fundamentals
+   - Understand Git basics
+   - Study project structure
 
 3. **Initial Contribution**
-   - Fix documentation issues
-   - Add unit tests
-   - Implement small features
+   - Create basic HTML structure
+   - Style with CSS
+   - Add simple JavaScript functionality
+   - Implement responsive design
 
 ## 📚 Resources
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
-- [Tailwind CSS Guide](https://tailwindcss.com/docs)
-- [MongoDB Manual](https://docs.mongodb.com/manual/)
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [CSS-Tricks](https://css-tricks.com/)
+- [JavaScript.info](https://javascript.info/)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
 - [Express.js Guide](https://expressjs.com/en/guide/routing.html) 
